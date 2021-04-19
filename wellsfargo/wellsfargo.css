@@ -1,0 +1,207 @@
+.scrollmenu{ 
+            overflow:auto;
+            white-space:no wrap;}
+.header{background-color: #d71e28;
+        color:white;
+        border-bottom:5px solid #fcc60a;
+        position:relative;
+        top:0px;
+        left:0px;
+        right:0px;
+        padding:5px;
+        }
+
+.main-logo{font-family: Verdana,Arial,sans-serif;
+           font-size:30px;
+        }
+.header-ul a{display:flex;
+            padding-top:10px;
+            color:white;
+            }
+.header button{width:100px;
+               }
+.header-ul a:hover{color:white;}
+.header-ul li{margin-right:20px;}
+.header span{border-radius:8px;
+             float:right;
+             color:black;
+             opacity:0.5;}
+.header button{color:black;
+                 text-align:left;
+                 }
+
+.header-nav{position:relative;
+            bottom:0px;
+            padding:10px;
+            padding-bottom:8px;
+            
+            
+           }
+.header-nav a{color:#434343;
+             font-size:15px;
+             font-family:Verdana,Arial,sans-serif;
+             padding:5px;
+             }
+
+.header-nav a:active{border-bottom:2px solid #ffcd41;
+                    font-size:bold;
+                    color:black;
+                    text-decoration:none;
+                     }
+.a-1{font-weight:bold;
+   border-bottom:2px solid #ffcd41;}
+.nav{position:relative;
+     bottom:10px;
+     margin-top:-5px;
+     padding-top:10px;
+     background-color:#f9f7f6;}
+.nav a{color:#434343; 
+      padding-top:10px;
+padding-left:12px;
+padding-right:12px;
+padding-bottom:10px;} 
+.covid-19{text-align: center;
+         position:relative;
+         bottom:0px;
+         }
+.section{
+         position:relative;
+         bottom:0px;
+         margin-top:10px; 
+         margin-left:40px;
+         margin-right:40px;
+         background-image:url("../Desktop/Assignment/wellsfargo/wells\ fargo\ image.jpeg ");
+         background-repeat:no-repeat;
+         height:500px;
+        
+        }  
+.aerrow-left{font-size:40px;
+        color:white;
+        text-shadow:1px 1px 1px grey;
+        position:absolute;
+        top:150px;
+        left:30px;
+        font: optional;
+        cursor:pointer;
+        }
+
+.main-box{
+        position:absolute;
+        top:10px;
+        left:80px;
+        height:auto;
+        padding:16px 16px 5px;
+        background-color:#fff7e2;
+         }
+.username {
+        padding-left:4px;
+        margin-bottom:12px;
+        height:48px;
+        background-color:#fff;
+        border-bottom:1px solid black;}
+.username label{opacity:0.5; background-color:white;}
+
+        
+  
+
+.username input{border:none;
+                background-color:white;
+         }
+.UN-input:active{border:none;}
+.username:active{ 
+                 opacity:1.0;
+                 border:3px solid rgb(54, 49, 80);  
+                }
+.usename:active{border:none;}
+.password {
+        padding-left:4px;
+        margin-bottom:12px;
+        height:48px;
+        background-color: white;
+        border-bottom:1px solid black;}
+.password label{opacity:0.5; background-color:white;}
+.password input{border:none;
+                background-color:white;
+         }
+.password:active{ 
+                 opacity:1.0;
+                 border:3px solid rgb(54, 49, 80);  
+                }
+.password:active{border:none;}
+.CB:active{border:1px solid black;}
+.CB label{ font-size:16px;
+          font-weight:normal;
+          margin-left:10px;
+        }
+.CB input{font-size:xx-large;}
+.CB{margin-top:3px;
+    margin-bottom:8px;
+    height:25px;
+    padding-bottom:6px;}
+.submit input{background-color: #d71e28;
+             border:none;
+             border-radius:8px;
+             color:white;
+              font-family:Verdana, Arial,Sans-serif;
+              font-size:16px;
+              height:40px;
+          text-align:center;
+         width:184px;
+        }
+.submit{cursor: pointer;}
+.section a{color:black;}
+.form-end{position:absolute;
+         left:0px;
+         right:0px;
+        cursor: pointer;
+          background-color:white;
+        padding:5px 5px 5px 14px;}
+
+.aerrow-right{font-size:40px;
+                       color:white;
+                       text-shadow:1px 1px 1px grey;
+                       position:absolute;
+                       top:150px;
+                       right:30px;
+                       font: optional;
+                       cursor:pointer;
+                       }
+.section-footer{background-color:rgba(255,255,255,.90);
+                display:flex;
+               
+                border-bottom:3px solid #ffcd41;
+                position:absolute;
+                top:345px;
+                left:0px;
+                right:0px;
+                
+                padding:5px;
+                }
+.section-footer ul{padding-left:100px; 
+                 }
+.section-footer task{padding-left:20px;
+                  padding-right:20px;}
+.task a {
+        font-size:15px;
+        padding-left:30px;
+        padding-right:30px;
+        }
+.task {border-right:1px solid #b5adad;}
+       
+.text{color:white;
+       position:absolute;
+       top:60px;
+       left:375px;
+       font-family: Verdana,Arial, sans-serif;
+       
+        }
+.text a{color:white;
+       font-weight: bolder;
+       margin-top: 70px;}
+.last-a{position:absolute;
+        top:25px;
+
+        margin-bottom:20px;
+        margin-left:30px;}
+.text a:hover{color:white;
+             text-decoration: underline;}
